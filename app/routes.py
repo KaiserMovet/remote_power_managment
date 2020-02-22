@@ -21,6 +21,6 @@ def api_turn_on():
 
 
 @mapp.route('/api/prussia/turn_off')
-def api_turn_on():
+def api_turn_off():
     print("TURNING ON")
     return render_template("base.html", ht=1)
